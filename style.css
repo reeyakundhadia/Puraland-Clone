@@ -1,0 +1,424 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  font-family:'Poppins', sans-serif;
+}
+
+
+/* Navigation styling*/
+
+.navbar{
+  display: flex;
+  flex-direction: row;
+  padding: 37px 34px;
+  flex-wrap: wrap;
+}
+
+.logo{
+  margin-right: 120px;
+  margin-left: 50px;
+}
+
+.navitems{
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo a img{
+  width: 6rem;
+  height: 2rem;
+}
+
+.navitems a{
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 300;
+
+}
+.navitems a:hover{
+  color: crimson;
+}
+.icons{
+  display: flex;
+  width: 50px;
+  margin-left: 15.5rem;
+  margin-top: 5px;
+}
+i{
+  padding-right: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.icon-button{
+  background: none;
+  border: none;
+}
+
+.hamburger{
+  background: transparent;
+  border: 0;
+  color: #fff;
+  font-size: 30px;
+  cursor: pointer;
+  display: none;
+}
+
+.hamburger:focus{
+  outline: none;
+
+}
+
+
+/* Home Styling*/
+#home{
+  background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(images/background.png);
+  background-size: cover;
+  height: 43rem;
+}
+
+h4{
+  font-weight: 300;
+  color: white;
+  font-size: 1.6rem;
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+h4 span{
+  font-family: 'Noto Serif JP', sans-serif;
+}
+
+.home-h1{
+  color: white;
+  font-size: 3rem;
+  font-weight: 700;
+  padding-bottom: 8rem;
+}
+
+.discover{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 18px 48px;
+  background-image: linear-gradient(to right, #ff00c8, #e94560,  #e84545);
+}
+
+.discover:hover{
+  background-image: linear-gradient(to right, #ff00c8, #f0134d);
+}
+
+/* About Styling*/
+#about{
+  background-image: linear-gradient(to right, #ff00c8, #e94560, #f0134d, #e84545);
+  padding: 6rem 7rem;
+}
+
+.about-h1{
+  color: white;
+  font-size: 2.5rem;
+  padding-bottom: 5rem;
+}
+
+.about-h1-2{
+  font-weight: 400;
+  font-size: 2.3rem;
+  color: white;
+  padding-bottom: 2.5rem;
+}
+
+.portfolio{
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  margin-top: 35px;
+  margin-left: 55rem;
+  border: 2.5px solid;
+  border-color: white;
+  border-radius: 40px;
+  padding: 15px 20px;
+}
+
+.fa-arrow-right{
+  margin-left: 20px;
+}
+
+/* table stylng */
+
+
+.container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.number{
+  margin-top: 20px;
+  position: absolute;
+  font-size: 6.5rem;
+  color: rgb(255,0,0,0.3)
+}
+
+.main-p{
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.hello{
+
+}
+
+.design, .new-idea, .trending{
+  margin-right: 20px;
+  width: 500px;
+  height: 300px;
+  padding-right: 20px;
+  padding-left: 30px;
+  padding-bottom: 30px;
+  margin-left: 100px;
+  margin-bottom: 30px;
+  transition-property: all;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+}
+
+.hidden-number{
+  color: white;
+  font-size: 40px;
+}
+
+.design:hover{
+  background: linear-gradient(to right, #ff00c8, #e94560,  #e84545);
+  transform: translateY(1px);
+  color: white;
+  font-weight: bold;
+}
+
+.new-idea:hover{
+    background: linear-gradient(to right, #ff00c8, #e94560,  #e84545);
+    transform: translateY(1px);
+    color: white;
+    font-weight: bold;
+}
+
+.trending:hover{
+    background: linear-gradient(to right, #ff00c8, #e94560,  #e84545);
+    transform: translateY(1px);
+    color: white;
+    font-weight: bold;
+}
+
+.number:hover{
+
+}
+/*.design:hover::after{
+  content: "";
+  position: absolute;
+  top : 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, #ff00c8, #e94560,  #e84545);
+  transition: 0.5s all;
+  opacity: 1;
+  color: white
+}
+
+.design:hover{
+  opacity: 1;
+  transform: rotateY(0px);
+}*/
+
+/*Our Team Styling*/
+
+#team{
+}
+
+.team-class{
+  padding: 70px 145px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.team-h1{
+  margin-left: 8.8rem;
+  font-size: 2.8rem;
+}
+.developer{
+  transition-property: all;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+}
+
+.developer img:hover{
+  background: linear-gradient(to right, #ff00c8, #e94560,  #e84545);
+  transform: translateY(1px);
+  z-index: 2;
+}
+
+.container img{
+  width: 20rem;
+  height: 30rem;
+}
+
+.team-class p{
+  color: grey;
+  font-family: 'Noto Serif JP', sans-serif;
+}
+
+.developer:hover{
+  background-color:
+}
+
+/*Innovative ideas styling*/
+
+.innovative{
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  display: flex;
+}
+
+.innovative img{
+  padding-top: 4.5rem;
+  height: 25rem;
+}
+.text-content{
+  padding-top: 30px;
+  padding-right: 100px;
+  padding-left: 50px;
+  margin-right: 50px;
+}
+
+.text-content h1{
+  padding-right: 100px;
+  font-size: 2.5rem;
+}
+.text-content h1 span{
+  color: crimson;
+}
+
+.text-content p{
+  color: grey;
+  font-size: 1.2rem;
+  margin-bottom: 70px;
+  margin-top: 50px;
+}
+
+/* Features styling */
+
+#features{
+  padding: 5.5rem 9rem;
+  background-color: #1d1d1d;
+  color: white;
+}
+
+.features-class{
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-col h1{
+  margin-bottom: 4rem;
+  margin-right: 50px;
+  font-size: 2.5rem;
+  line-height: 3rem;
+}
+.left-col h1 span{
+  color: crimson;
+}
+.feature-p{
+  color: #dfdfdf;
+  line-height: 1.2rem;
+  font-size: 0.9rem;
+  margin-bottom: 3rem;
+  margin-right: 30px;
+}
+
+.left-col p{
+  color: #dfdfdf;
+  font-size: 1.2rem;
+  padding-right: 50px;
+  line-height: 1.6rem;
+}
+
+.content-heading{
+  font-size: 1.2rem;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+
+.middle-col {
+  width: 110rem;
+}
+
+.right-col{
+  width: 110rem;
+}
+
+.footer-main i{
+  color: crimson
+}
+
+/*Footer Styling*/
+
+#footer{
+  padding: 6rem 0rem;
+}
+.footer-main{
+  display: flex;
+}
+
+.footer-left{
+  margin-right: 4rem;
+  width: 70%;
+}
+.footer-left img{
+  width: 6rem;
+}
+
+.footer-right img{
+  position: absolute;
+  width: 27rem;
+}
+
+.footer-left p{
+  font-size: 15px;
+  color: grey;
+  margin-top: 5rem;
+  margin-right: 20rem;
+}
+
+.footer-right p{
+  font-size: 15px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+
+}
+
+
+/* hamburger responsive */
+
+@media screen and (max-width: 767px){
+  .navitems{
+    display: none;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .hamburger{
+    display: block;
+  }
+
+  .navitems.show{
+    display: flex;
+  }
+}
